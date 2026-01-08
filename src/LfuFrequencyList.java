@@ -35,9 +35,6 @@ public class LfuFrequencyList<K,V> {
         if(list.isEmpty()){
             map.remove(freq);
 
-            if (freq == minFreq) {
-                minFreq++;
-            }
         }
     }
 
